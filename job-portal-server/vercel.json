@@ -1,8 +1,11 @@
 {
+    "buildCommand": "cd client && npm start && npm run build",
+    "outputDirectory": "client/dist",
+    "framework": "vite",
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "/api"
+            "destination": "/api/inddex.js"
         }
     ]
 }
